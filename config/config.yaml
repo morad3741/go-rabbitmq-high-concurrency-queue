@@ -1,0 +1,8 @@
+database:
+  dsn: "dbname=postgres sslmode=disable"
+server:
+  port: 8080
+
+rabbitmq:
+  url: "amqp://guest:guest@localhost:5672/"
+  queue: "example_queue"
